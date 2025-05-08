@@ -1,0 +1,110 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b91818;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    padding: 1em;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #ffa500;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.btn {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+/* About Section */
+.about {
+    padding: 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2em;
+}
+
+.about p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Categories Section */
+.categories {
+    padding: 20px;
+    text-align: center;
+}
+
+.categories h2 {
+    font-size: 2em;
+}
+
+.category {
+    display: inline-block;
+    margin: 10px;
+}
+
+.category a {
+    text-decoration: none;
+    background-color: #ffa500;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.category a:hover {
+    background-color: #333;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+h1{
+    color:black
+}
